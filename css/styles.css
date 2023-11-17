@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #E19747;
+    --secondary-color: #fde9df;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    margin: 60px auto;
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+}
+
+.navigation-links {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.navigation-links a {
+    border-radius: 4px;
+    color: var(--primary-color);
+    margin: 20px;
+    padding: 20px 15px;
+    text-transform: capitalize;
+}
+
+.navigation-links a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin: 20px;
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
